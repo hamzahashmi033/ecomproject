@@ -1,0 +1,37 @@
+.MuiTableHead-root {
+  display: table-header-group;
+  background: rgb(243 243 243) !important;
+}
+
+.MuiTableCell-alignRight {
+  text-align: start !important;
+}
+
+.unshipped_button {
+  padding: 6px 10px;
+  background-color: #ed4635;
+  color: #fff;
+  border: none;
+}
+.action_button {
+  padding: 6px 10px;
+  background-color: #f2ca67;
+  color: #000;
+  border: none;
+  margin-bottom: 10px;
+}
+.print_button {
+  padding: 6px 10px;
+  background-color: #f3f3f3;
+  color: #000;
+  border: none;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+@media (min-width: 600px) {
+  .MuiToolbar-regular {
+    min-height: 64px;
+    display: none !important;
+  }
+}

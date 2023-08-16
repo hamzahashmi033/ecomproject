@@ -1,0 +1,218 @@
+.become-seller {
+  margin-top: 113px;
+}
+.become-seller .main_container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.become-seller .img_discuss {
+  width: 100%;
+}
+.content {
+  position: absolute;
+  padding: 0 40px;
+  color: white !important;
+}
+.become-seller .top__categories__parent {
+  position: "relative";
+  width: "100%";
+  text-align: "left";
+  display: "flex";
+  justify-content: "left";
+  align-items: "left";
+  margin-top: 23;
+}
+@media screen and (max-width: 716px) {
+  .become-seller .top__categories__parent {
+    margin-top: -13;
+  }
+}
+.become-seller .top__categories {
+  position: "absolute";
+  width: "100%";
+  margin-left: 10;
+  text-align: left;
+}
+.top__categories h3 {
+  font-size: 3.8vw;
+  width: 60%;
+  font-weight: 600;
+  color: #d4d4d4 !important;
+  padding-left: 30px;
+}
+.top__categories p {
+  margin: 15px 0;
+  width: 60%;
+  font-size: 2.3vw;
+  color: #d4d4d4;
+  padding-left: 30px;
+}
+
+.steps-section {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  margin-bottom: 55px !important;
+}
+
+.steps-section--inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-section--step {
+  width: 35px;
+  height: 35px;
+  background-color: #d97c29;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.steps-section--inner h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 820px) {
+  .top__categories h3 {
+    width: 100%;
+  }
+  .top__categories p {
+    width: 100%;
+  }
+}
+
+.top__categories .btn {
+  font-size: 1.3vw;
+  color: white;
+  padding-left: 30px;
+}
+
+.top__categories label a {
+  color: #fbc920 !important;
+  margin-left: 5px;
+  padding-left: 30px;
+}
+.top__categories label {
+  padding-left: 10px;
+}
+
+.become-seller .become-seller-detail-first {
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.become-seller-detail-first--heading {
+  text-align: center;
+  margin-bottom: 75px !important;
+}
+
+.become-seller button {
+  background-color: #d97c29;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+@media screen and (max-width: 650px) {
+  .top__categories button {
+    font-weight: 200px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .top__categories button {
+    font-weight: 150px;
+    padding: 3px 3px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .top__categories button {
+    font-weight: 100px;
+    padding: 2px 2px;
+    font-size: 8px;
+  }
+}
+
+.become-seller .become-seller-detail button {
+  border-radius: 5px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 38px;
+  right: 39%;
+}
+
+.become-seller .become-seller-detail img {
+  object-fit: contain;
+  width: 100%;
+}
+.become-seller .become-seller-content {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #ececec !important;
+  color: #535353 !important;
+}
+.become-seller h4 {
+  padding: 20px 0;
+  color: #505050;
+  font-size: 34px;
+}
+.become-seller .description {
+  padding-bottom: 22px;
+  font-weight: 500;
+}
+@media screen and (max-width: 991px) {
+  .become-seller {
+    margin-top: 130px;
+  }
+  .become-seller .img_discuss {
+    height: 250px;
+  }
+  .become-seller .content {
+    padding: 0 20px;
+  }
+  .become-seller .content h3 {
+    font-size: 26px;
+    width: 100%;
+  }
+  .become-seller .content p {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 100%;
+  }
+  .become-seller button {
+    margin: 5px 0;
+  }
+  .become-seller .become-seller-detail button {
+    display: none;
+  }
+}
+@media screen and (max-width: 763px) {
+  .become-seller .become-seller-content {
+    text-align: left;
+  }
+  .become-seller h4 {
+    font-size: 24px;
+  }
+  .become-seller .description {
+    font-size: 15px;
+  }
+}

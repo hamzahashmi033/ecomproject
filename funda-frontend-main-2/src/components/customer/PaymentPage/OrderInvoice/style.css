@@ -1,0 +1,16 @@
+.invoice_one{
+    display:block ;
+}
+
+.invoice_two{
+    display:none !important;
+}
+
+@media screen and (max-width:450px) {
+    .invoice_one{
+        display:none !important;
+    }
+    .invoice_two{
+        display:block !important;
+    }
+}

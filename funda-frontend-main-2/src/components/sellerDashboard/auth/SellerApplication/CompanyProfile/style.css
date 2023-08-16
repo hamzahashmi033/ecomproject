@@ -1,0 +1,27 @@
+/* .webandsocial {
+  border: 1px solid red;
+  padding: 20px;
+}
+.fb-input {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid rgb(214 214 214);
+}
+.icons {
+  display: flex !important;
+  border-radius: 3px;
+  padding-right: 10px;
+} */
+/* .webandsocial {
+  padding-bottom: 20px;
+} */
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px !important;
+}
+.MuiOutlinedInput-root
+  MuiInputBase-root
+  MuiInputBase-colorPrimary
+  MuiInputBase-formControl
+  css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 0 !important;
+}

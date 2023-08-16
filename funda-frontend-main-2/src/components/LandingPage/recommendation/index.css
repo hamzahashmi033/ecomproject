@@ -1,0 +1,39 @@
+.recommendation {
+  background: #eff1fa;
+  padding: 15px 30px;
+  text-align: center;
+  color: #002d70;
+}
+.recommendation h4 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.recommendation button {
+  margin: 5px 0;
+  background: #002d70;
+  color: #fff;
+  min-width: 20%;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.recommendation button:hover {
+  background: #001c46;
+}
+
+.recommendation p {
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+}
+
+.recommendation p a {
+  color: #002d70;
+  text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+.card__box {
+  border: 2px solid transparent;
+}
+.card__box:hover {
+  border: 2px solid #ffffff !important;
+  box-shadow: 0px 9px 22px rgba(0, 0, 0, 0.25) !important;
+  background: #ffffff;
+}

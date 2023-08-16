@@ -1,0 +1,49 @@
+.adminpanel-header .account-list-button .user-name {
+  width: 70px;
+}
+.adminpanel-header {
+  height: 41px;
+}
+.adminpanel-header .side-box {
+  color: #e2e2e2 !important;
+}
+.adminpanel-header .side-box2 {
+  margin-left: 164px;
+}
+.adminpanel-header .account-list {
+  width: 170px;
+}
+.adminpanel-header .account-list2 {
+  width: 170px;
+}
+.adminpanel-header .search-box-wrapper {
+  width: 76%;
+}
+.adminpanel-header .side-box svg {
+  font-size: 22px;
+}
+@media screen and (max-width: 1194px) {
+  .adminpanel-header .search-box-wrapper {
+    display: none;
+  }
+}
+.dropdown-content {
+  border-style: none !important;
+}
+
+.dropdownProf {
+  background-color: #e6e6e6;
+}
+.dropdownProf a {
+  color: #666666 !important;
+}
+.dropdownProf span {
+  color: #666666 !important;
+}
+
+.dropdown-content ul li:hover {
+  background-color: #fff !important;
+  border: 1px solid #e6e6e6;
+
+  color: #666666 !important;
+}

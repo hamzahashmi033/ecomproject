@@ -1,0 +1,55 @@
+.address-div {
+  width: 95%;
+  margin: auto;
+  border: 1px solid #6666;
+  border-radius: 5px;
+  .slider-header {
+    font-size: 30px;
+    color: #1a2030;
+    border-bottom: 1px solid #cdcaca;
+    font-weight: 700;
+    padding-bottom: 22px;
+  }
+  .slider-content {
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    .address-form {
+      .input-item-div {
+        .input-label {
+          font-size: 16px;
+          font-weight: 699;
+          margin-bottom: 10px;
+        }
+        .input-field {
+        }
+        .phoneNumber-error {
+          font-size: 14px;
+          color: #ff4d4f;
+        }
+      }
+      .phoneNumber-div {
+        height: 86px;
+      }
+      .delivery-info {
+        font-size: 16px;
+      }
+    }
+    button {
+      background: #d97c29;
+      border: 1px solid #d97c29;
+      color: white;
+      font-weight: 700;
+      width: 200px;
+      height: 43px;
+      border-radius: 5px;
+      &:hover {
+        background: white;
+        color: #d97c29;
+        border: 1px solid #d97c29;
+      }
+    }
+  }
+}

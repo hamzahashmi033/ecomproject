@@ -1,0 +1,25 @@
+.tab_navigation .MuiAppBar-colorPrimary {
+  color: #358bd0 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.tab_navigation .MuiAppBar-colorPrimary:active {
+  border-bottom: #e6772e !important;
+}
+.tab_navigation .tab_4 {
+  margin-left: auto !important;
+}
+.tab_navigation .MuiTabs-flexContainer {
+  align-items: center;
+  opacity: 1 !important;
+  color: #358bd0 !important;
+}
+
+.tab_navigation .MuiTab-wrapper {
+  font-weight: 500 !important;
+}
+.MuiTabs-fixed {
+  border-bottom: 1px solid #dfdfdf !important;
+}

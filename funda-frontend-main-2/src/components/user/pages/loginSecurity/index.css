@@ -1,0 +1,57 @@
+.security-wrapper {
+  background-color: #eff1fa !important;
+  margin: 40px;
+  padding: 60px 20px 40px 40px;
+}
+
+.MuiPaper-root {
+  /* box-shadow: none; */
+  background-color: white !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+
+grid1 {
+  border-right: 1px solid red !important;
+  display: flex !important;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  /* border-right: 1px solid red; */
+  width: 100% !important;
+}
+
+.makeStyles-margin-2 {
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.MuiButton-containedPrimary {
+  /* color: #fff;
+  width: 126px; */
+  /* background-color: transparent !important; */
+  /* margin-top: 30px !important; */
+}
+.MuiInputLabel-root {
+  font-weight: 800 !important;
+}
+.buttonn {
+  padding: 10px !important;
+  margin: 10px;
+}
+.login {
+  font-weight: 700 !important;
+}
+
+/* .MuiIconButton-root {
+  border-radius: 1px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.54) !important;
+  padding: 0 !important;
+} */
+
+.makeStyles-margin-6,
+.makeStyles-margin-8 {
+  width: 100% !important;
+}

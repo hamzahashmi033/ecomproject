@@ -1,0 +1,32 @@
+.cart-container {
+  margin: 0 auto;
+  margin-top: 140px;
+  padding-bottom: 80px;
+  width: 97%;
+  .login-buttons-container {
+    button {
+      padding: 10px 20px;
+      background: #d97c29;
+      border: 1px solid #d97c29;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-right: 20px;
+      cursor: pointer;
+      transition: all 0.3s linear;
+      &:hover {
+        background-color: white;
+        color: #d97c29;
+      }
+      :last-child {
+        background-color: white;
+        color: #f05a24;
+        font-weight: 600;
+        &:hover {
+          background-color: #f05a24;
+          color: white;
+        }
+      }
+    }
+  }
+}

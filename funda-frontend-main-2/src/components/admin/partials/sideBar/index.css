@@ -1,0 +1,78 @@
+.admin-panel-navbar-wrapper {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  z-index: 99999;
+  width: 230px;
+  height: 100%;
+  background: #1a2030;
+  box-shadow: 0 0 2px #252c41;
+  transition: 0.4s all;
+  background-color: white;
+}
+/* .admin-panel-navbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.admin-panel-navbar::-webkit-scrollbar-thumb {
+  background: #ebebeb;
+  border-radius: 10px;
+}
+
+.admin-panel-navbar::-webkit-scrollbar-thumb:hover {
+  background: #dadada;
+} */
+
+.admin-panel-navbar-wrapper-show {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.admin-panel-navbar {
+  height: 100%;
+  background-color: white;
+
+  /* overflow: hidden; */
+}
+
+.admin-panel-navbar .nav-items {
+  padding: 10px 0px;
+}
+
+.admin-panel-navbar .nav-items li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* padding: 16px 10px; */
+  color: #ebebeb;
+  border-bottom: 1px solid #48516e;
+  transition: all 0.3s linear;
+}
+.admin-panel-navbar .nav-items li:hover {
+  background: #48516e;
+}
+
+.admin-panel-navbar .nav-items li.selected {
+  background: white;
+}
+.admin-panel-navbar .nav-items li a {
+  background-color: white;
+
+  color: #ebebeb;
+  display: block;
+  padding: 16px 10px;
+  width: 100%;
+}
+.admin-panel-navbar .nav-items li a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 763px) {
+  .admin-panel-navbar-wrapper {
+    visibility: hidden;
+    opacity: 0;
+    top: 65px;
+    transform: translateX(-400px);
+  }
+}

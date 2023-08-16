@@ -1,0 +1,30 @@
+.css-1gsv261 {
+  border-bottom: 0px !important;
+  width: 80% !important;
+  margin: auto !important;
+  background: "red" !important;
+  overflow-x: hidden !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  margin: auto !important;
+  background: "red" !important;
+  border-bottom: 0px !important;
+}
+.css-19kzrtu {
+  padding: 24px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(214, 214, 214);
+}
+.grid_container {
+  margin-top: 25px;
+}
+.form {
+  padding: 15px 20px;
+}
+@media screen and (min-width: 768px) {
+  .form {
+    padding: 15px 100px;
+  }
+}

@@ -1,0 +1,22 @@
+.customer-carousel .carousel-tabs {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.customer-carousel .carousel-tabs button {
+  font-size: 40px;
+  border: none;
+  padding: 10px 6px;
+}
+.customer-carousel .carousel-tabs button:last-child {
+  /* border: 1px solid #c7c9d1; */
+  border-right: 0;
+}
+.customer-carousel .carousel-tabs button:hover {
+  background: #fff;
+}

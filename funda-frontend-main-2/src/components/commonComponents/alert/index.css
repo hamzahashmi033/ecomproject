@@ -1,0 +1,26 @@
+.alert-box {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999999;
+  padding: 16px 30px;
+}
+.alert-box p {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+  border-bottom: 1px solid #f5c6cb;
+}
+
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+  border-bottom: #c3e6cb;
+}

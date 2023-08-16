@@ -1,0 +1,26 @@
+.footer {
+  background-color: #fbffff;
+  margin-top: 40px;
+  padding: 0px 0px 12px 58px;
+}
+.nation-wide {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.rocket-icon .rocket {
+  font-size: 60px;
+  align-self: center;
+  margin-right: 13px;
+}
+.nation-wide p span {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 0px 0px 12px 16px;
+  }
+}

@@ -1,0 +1,36 @@
+.pay-by-card {
+  padding: 15px 20px;
+  background: #eff1fa;
+  box-shadow: 0 0 5px #eff1fa;
+  border: 1px solid #cfd1d6;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.pay-by-card h4 {
+  color: #002d70;
+  font-weight: bold;
+  font-size: 15px;
+}
+.pay-by-card .card-thumbnail {
+  background: #beddd8;
+  margin: 10px 0;
+}
+.pay-by-card .card-thumbnail img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.pay-by-card a {
+  background: #f05a24;
+  display: block;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.3s all;
+  margin-top: 10px;
+}
+.pay-by-card a:hover {
+  background: #ec541d;
+  color: #fff;
+}

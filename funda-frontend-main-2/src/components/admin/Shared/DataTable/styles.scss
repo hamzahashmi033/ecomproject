@@ -1,0 +1,15 @@
+.table-value {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  //   width: 200px;
+  .image-div {
+    width: 107px;
+    padding: 20px 0;
+  }
+}
+.makeStyles-gridLabelItem-6 {
+  text-align: left !important;
+}

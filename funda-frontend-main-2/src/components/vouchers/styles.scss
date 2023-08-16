@@ -1,0 +1,75 @@
+.vouchers-container {
+  font-size: 26px;
+  font-weight: 700;
+  // width: 1278px;
+  // margin: auto;
+  padding: 20px 0;
+  background-image: url("../../assets/voucherBackground.png");
+  .voucher-header {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin: auto;
+    max-width: 88%;
+  }
+  .vouchers-card-div {
+    width: 1278px;
+    margin: auto;
+    max-width: 90%;
+    .voucher-card {
+      font-size: 18px;
+      font-size: 18px;
+      padding: 20px;
+      box-shadow: 0px 0px 5px 2px #0000004f;
+      border-radius: 25px;
+      background: white;
+      .voucher-discount {
+        text-align: end;
+        .discount-div {
+          background: #f55d5d;
+          padding: 7px 34px;
+          color: white;
+          border-radius: 25px;
+          font-size: 14px;
+          .rs-sign {
+            margin-left: 6px;
+            margin-right: 9px;
+          }
+        }
+      }
+      .icon-div {
+        text-align: center;
+        span {
+          font-size: 52px;
+          color: #e94a10;
+          padding: 20px;
+          border: 2px solid;
+          border-radius: 50%;
+        }
+      }
+      .voucher-info {
+        text-align: center;
+        // margin: 20px 0;
+        .voucher-code {
+          font-size: 24px;
+          margin: 8px;
+          margin: auto;
+          padding-top: 10px;
+        }
+        .voucher-name {
+          border-bottom: 1px solid #c9bcbc;
+          padding: 10px;
+          padding: 6px;
+          padding-bottom: 10px;
+        }
+        .voucher-expire {
+          text-align: end;
+          padding-top: 14px;
+          span {
+            color: #cf1717;
+          }
+        }
+      }
+    }
+  }
+}

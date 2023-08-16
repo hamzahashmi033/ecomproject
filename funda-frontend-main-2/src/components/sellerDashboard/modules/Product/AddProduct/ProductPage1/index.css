@@ -1,0 +1,139 @@
+.product_caegory {
+  background-color: #fff;
+}
+
+.category_content {
+  width: 98.2%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.category_content:hover {
+  background-color: #e6e6e6;
+  color: white !important;
+}
+
+.category_content.selected-category {
+  background: #e6e6e6;
+}
+
+.category_content.selected-category .category_content_appliance h1 {
+  color: #000;
+}
+
+.category_content_appliance {
+  display: flex;
+  padding-left: 10px;
+}
+
+.category_content_appliance h1 {
+  /* margin-left: 10px; */
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.category_content_appliance .select_category {
+  color: #a5aaaa;
+  font-weight: 700;
+}
+.category_content_appliance img {
+  opacity: 0.5;
+}
+.category_content_ricon {
+  align-self: center;
+  padding-right: 10px;
+}
+.category_content_ricon img {
+  opacity: 0.5;
+}
+
+.product_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.product_heading .browser {
+  font-weight: 700;
+  color: #d97c29;
+}
+.product_heading .product {
+  font-weight: 500;
+
+  padding-right: 16px;
+  color: #d97c29;
+}
+
+.product_caegory form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 89%;
+}
+.product_caegory form.example input[type="text"].search0 {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  /* float: left; */
+  width: 96%;
+}
+
+.product_caegory form.example button {
+  float: left;
+  width: 7%;
+  padding: 7.5px;
+
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.product_caegory form.example button:hover {
+  background: #0b7dda;
+}
+
+.product_caegory form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.product_caegory p span {
+  color: #d97c29;
+}
+.product_caegory p {
+  color: #316367;
+}
+.product_caegory h1 {
+  color: #316367;
+}
+
+.product-categories {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1124px) {
+  .add_product {
+    width: 70.8%;
+  }
+}
+@media screen and (max-width: 1032px) {
+  .add_product {
+    width: 71%;
+  }
+}
+
+@media (min-width: 960px) {
+  .MuiContainer-maxWidthMd {
+    max-width: 900px !important;
+    margin-top: 60px !important;
+  }
+}

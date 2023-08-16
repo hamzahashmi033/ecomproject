@@ -1,0 +1,34 @@
+.card__box {
+  border: 2px solid transparent;
+  position: relative;
+}
+.card__box:hover {
+  border: 2px solid #ffffff !important;
+  box-shadow: 0px 9px 22px rgba(0, 0, 0, 0.25) !important;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  box-shadow: 0 0 10px 5px; */
+  background: #ffffff;
+}
+.abbbbbbbbbbb {
+  /* position: absolute;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: #D97C29;
+  color: #fff;
+  padding: 5px 10px;
+  border-bottom-left-radius: 7px;
+  font-weight: bold; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: #d97c29;
+  color: #fff;
+  width: 37%;
+  font-size: 11px;
+  text-align: center;
+  padding: 0px 10px;
+  border-bottom-left-radius: 7px;
+  font-weight: bold;
+}

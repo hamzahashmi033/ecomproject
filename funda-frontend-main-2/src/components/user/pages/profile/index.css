@@ -1,0 +1,76 @@
+.your-profile .profile-card-wrapper {
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+.your-profile .profile-card-wrapper .profile-card {
+  border-right: 1px solid #dadada;
+  padding: 20px 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.your-profile
+  .profile-card-wrapper
+  .profile-card:hover
+  .profile-card-thumbnail {
+  transform: scale(1.1);
+}
+
+.your-profile
+  .profile-card-wrapper
+  .MuiGrid-grid-lg-4:last-child
+  .profile-card {
+  border-right: 1px solid transparent;
+}
+.your-profile .profile-card-wrapper .profile-card .profile-card-thumbnail {
+  width: 120px;
+  transition: 0.4s all;
+}
+.your-profile .profile-card-wrapper .profile-card .profile-card-thumbnail img {
+  width: 100%;
+}
+.your-profile .profile-card-wrapper .profile-card .profile-card-detail {
+  padding-left: 15px;
+}
+
+.your-profile .profile-card-wrapper .profile-card .profile-card-detail h4 {
+  color: #f05a24;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.your-profile .profile-card-wrapper .profile-card .profile-card-detail p {
+  color: #002d70;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+  width: 70%;
+}
+@media screen and (max-width: 991px) {
+  .your-profile {
+    padding: 20px;
+  }
+  .your-profile .profile-card-wrapper {
+    padding: 0;
+  }
+  .your-profile .profile-card-wrapper .profile-card {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    height: auto;
+    margin: 10px 0;
+    padding: 40px 20px;
+    justify-content: space-between;
+  }
+  .your-profile .profile-card-wrapper .profile-card .profile-card-detail {
+    text-align: right;
+  }
+  .your-profile .profile-card-wrapper .profile-card .profile-card-detail p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 763px) {
+  .your-profile .profile-card-wrapper .profile-card .profile-card-thumbnail {
+    width: 80px;
+  }
+}

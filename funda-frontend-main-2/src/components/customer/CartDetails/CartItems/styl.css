@@ -1,0 +1,27 @@
+
+@media screen and (max-width:900px) {
+    .hide{
+        display:none !important;
+    }
+    .show{
+        display:block !important;
+    }
+}
+.hide{
+    display:block ;
+}
+@media screen and (max-width:630px) {
+    .show{
+        display:none !important;
+    }
+    .show_two{
+        display: block !important;
+    }
+}
+.show{
+    display:none ;
+}
+
+.show_two{
+    display: none;
+}

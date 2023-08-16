@@ -1,0 +1,229 @@
+.manageorder .manageorder_header {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+}
+
+.manageorder .manageorder_header h5 {
+  margin: 0;
+  font-size: 30px !important;
+  font-weight: 400;
+}
+
+.manageorder .manageorder_header a {
+  padding-left: 3px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #d97c29;
+}
+.manageorder .manageorder_header span {
+  color: #d97c29;
+}
+
+.manageorder .manageorder_header button {
+  padding: 5px 6.9px 5px 6.9px;
+  background-color: #f4f5f8;
+  color: #242425;
+  border: 1px solid black;
+}
+
+.manageorder .manageorder_header button img {
+  margin-left: 10px;
+}
+
+.manageorder .order_dropdown {
+  text-align: end;
+}
+
+.manageorder .order_dropdown .order_id {
+  padding: 4px !important;
+  background-color: #f4f5f8;
+  border-radius: 4px;
+  margin-right: 10px !important;
+  font-weight: 600;
+  height: 34px;
+}
+
+.manageorder .order_dropdown .orderid {
+  padding: 4px !important;
+  background-color: #f4f5f8;
+  border-radius: 4px;
+}
+
+.manageorder .order_search_box {
+  text-align: right;
+}
+
+.manageorder .order_search_box_input {
+  width: 78% !important;
+  height: 34px;
+  padding: 10px;
+}
+.manageorder .hide_filters .order_dropdown select {
+  padding: 4px !important;
+  background-color: #f4f5f8;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.manageorder .hide_filters .order_dropdown select {
+  padding: 5px !important;
+  background-color: #f4f5f8;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.manageorder .quick_filters ul {
+  list-style-type: none;
+  padding: 5 0 10px 0;
+  display: flex;
+  font-weight: 500;
+  border-bottom: 1px solid #dfdfdf;
+  color: #358bd0;
+  margin-top: 10px;
+}
+
+.manageorder .quick_filters ul li {
+  padding-right: 15px;
+}
+.table_wrapper {
+  margin-top: 30px;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 15px;
+  padding: 0px 20px;
+}
+.table_wrapper .refine_data {
+  background-color: #f3f3f3;
+  border-radius: 3px;
+}
+.table_wrapper .refine_data p {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  margin: 0 auto !important;
+}
+
+.table_wrapper .refine_data form {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #dfdfdf;
+  border-bottom: 2px solid #dfdfdf;
+  padding: 15px 0 15px 0;
+}
+.table_wrapper .refine_data form label {
+  font-weight: 500;
+}
+
+.manageorder .filter_table {
+  background-color: #353535;
+}
+
+.manageorder .container_hide_filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manageorder .content_center {
+  display: flex;
+}
+
+.manageorder .content_center button {
+  background-color: #4e565e !important;
+  color: #fcfcfc;
+  border: none;
+  padding: 9px;
+}
+
+.manageorder .content_center .search_button {
+  background-color: #4e565e !important;
+  color: #fcfcfc;
+  border: none;
+  padding: 6px 10px;
+}
+
+.manageorder .content_center h1 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 10px !important;
+  align-self: flex-end;
+}
+.manageorder .seller_fulfilled {
+  margin: 5px 0 0 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.manageorder .content_center p {
+  margin-top: 5px !important;
+  margin-bottom: 0 !important;
+  margin-left: 10px !important;
+  font-size: 17px;
+  opacity: 0.5;
+  align-self: center;
+}
+
+.manageorder .action_on_select {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #f3f3f3;
+  padding: 8px 0;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.manageorder .action_on_select h4 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  align-self: center !important;
+}
+.manageorder .action_on_select button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f7f8fa;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+.manage-learn-more {
+  align-self: flex-end;
+  padding-bottom: 7px;
+}
+
+.manageorder .container_hide_filters .hide_filters {
+  display: flex;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  margin-bottom: 20px !important;
+}
+
+.MuiTableBody-root {
+  background-color: white !important;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 20px !important;
+}
+
+.m-5 {
+  margin-left: 5px;
+}
+
+.MuiTableCell-root {
+  padding: 10px !important;
+  font-family: "Raleway" !important;
+}
+
+.MuiTableCell-alignRight {
+  width: 15% !important;
+}
+
+@media (min-width: 600px) {
+  .manageorder .MuiTab-root {
+    min-width: 0px !important;
+  }
+}

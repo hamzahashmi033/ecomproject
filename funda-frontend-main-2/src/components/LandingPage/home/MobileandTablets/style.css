@@ -1,0 +1,11 @@
+.MobileTablet_image {
+  width: 95%;
+  height: 300px !important;
+  box-shadow: 10px 0 5px -2px #888;
+}
+
+@media screen and (max-width: 600px) {
+  .viewww_All {
+    text-align: left;
+  }
+}

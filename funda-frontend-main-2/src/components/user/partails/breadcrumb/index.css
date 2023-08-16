@@ -1,0 +1,25 @@
+.breadcrumb-wrapper {
+  margin: 15px 35px;
+}
+.breadcrumb-wrapper li {
+  display: inline-block;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 2px 4px;
+  font-weight: 600;
+}
+.breadcrumb-wrapper li svg {
+  font-size: 10px;
+  position: relative;
+  bottom: 1px;
+}
+
+.breadcrumb-wrapper li a {
+  padding: 0 2px;
+  color: #002d70;
+}
+
+.breadcrumb-wrapper li span {
+  color: #f05a24;
+}

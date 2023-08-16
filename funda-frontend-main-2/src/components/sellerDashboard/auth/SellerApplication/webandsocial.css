@@ -1,0 +1,18 @@
+/* .webandsocial {
+  border: 1px solid red;
+  padding: 20px;
+} */
+.fb-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(214 214 214);
+  }
+  .icons {
+    display: flex !important;
+    border-radius: 3px;
+    padding-right: 10px;
+  }
+  /* .webandsocial {
+    padding-bottom: 20px;
+  } */
+  

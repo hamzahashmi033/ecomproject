@@ -1,0 +1,22 @@
+.card__box {
+  height: 287px;
+}
+
+.card__box:hover {
+  border-radius: 3px;
+  text-decoration: none;
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 11%);
+  border: solid 0.9px #f3f3f3;
+  cursor: pointer;
+}
+.nextprevv {
+  /* background:red; */
+}
+.typographyy {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  text-transform: capitalize;
+}

@@ -1,0 +1,21 @@
+.product-detail .wish-button {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.product-row .product-title {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-orient: vertical;
+}
+
+.cart-items-div {
+  height: 370px;
+  overflow: auto;
+}
+
+.cart-buttons {
+  padding: 20px 0;
+}

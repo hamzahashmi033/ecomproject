@@ -1,0 +1,44 @@
+.upload-file-div {
+}
+.upload-file-div .custom-file-upload {
+  background: #d97c29;
+  color: white;
+  margin-top: 20px;
+  display: inline-block;
+  width: 147px;
+  text-align: center;
+  padding: 9px 0;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload-file-div .custom-file-upload .upload-file-input {
+  display: none;
+}
+
+.images-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.images-container .image-card-div {
+  width: 116px;
+  margin-right: 20px;
+  text-align: end;
+}
+
+.images-container .image-card-div span {
+  background: #4e565e;
+  padding: 3px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.images-container .image-card-div img {
+  width: 100%;
+}

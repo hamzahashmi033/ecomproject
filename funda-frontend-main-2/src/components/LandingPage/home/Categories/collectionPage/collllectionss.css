@@ -1,0 +1,29 @@
+.top__categories__parent {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.top__categories {
+  position: absolute;
+  width: 100%;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 716px) {
+  .top__categories__parent {
+    margin-top: -13px;
+  }
+  .top__categories {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .top__categories {
+    font-size: 15px;
+  }
+}

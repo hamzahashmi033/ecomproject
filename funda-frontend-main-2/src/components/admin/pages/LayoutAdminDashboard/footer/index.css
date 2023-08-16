@@ -1,0 +1,10 @@
+.adminpanel-footer {
+  padding-top: 0;
+  padding: 16px;
+  background: #f1f1f1;
+  text-align: center;
+}
+.adminpanel-footer p {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}

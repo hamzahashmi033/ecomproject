@@ -1,0 +1,14 @@
+.seller-register-wrapper form {
+  width: 500px;
+}
+.seller-register-wrapper .logo-box {
+  width: 25%;
+  margin: auto;
+}
+.seller-register-wrapper .tagline {
+  color: #1a2030;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin: 10px 0;
+}

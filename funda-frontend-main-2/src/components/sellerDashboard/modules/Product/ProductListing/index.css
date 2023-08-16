@@ -1,0 +1,72 @@
+.product_main_heading {
+  color: #1a2030;
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  margin-top: 90px;
+  margin-left: 30px;
+}
+
+.add_button {
+  border: none;
+  padding: 6px 10px;
+
+  background: #d97c29;
+  color: white;
+  width: 180px;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.tabsBtn {
+  background: #f05a24;
+  color: white;
+  width: 180px;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border: none;
+  padding: 6px 10px;
+}
+
+.productlisting .productlisting_header {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+}
+
+.product-listing-heading {
+  width: 100%;
+}
+
+.productlisting .productlisting_header h5 {
+  margin: 0;
+  font-size: 30px !important;
+  font-weight: 400;
+}
+
+.productlisting .productlisting_header a {
+  padding-left: 3px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #498dd0;
+}
+.productlisting .productlisting_header span {
+  color: #498dd0;
+}
+
+.product-learn-more {
+  align-self: flex-end;
+  padding-bottom: 32px;
+  margin-left: 5px;
+}
+
+.delete-action {
+  color: red;
+  cursor: pointer;
+}

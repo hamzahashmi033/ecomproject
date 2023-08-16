@@ -1,0 +1,78 @@
+.shipment-div {
+  width: 95%;
+  margin: auto;
+  .slider-header {
+    font-size: 30px;
+    color: #1a2030;
+    border-bottom: 1px solid #cdcaca;
+    font-weight: 700;
+    padding-bottom: 22px;
+  }
+  .slider-content {
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    .shipping-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 10px 0;
+    }
+    .deliver-to-info {
+      font-size: 16px;
+    }
+    ul {
+      margin-left: 34px;
+      padding: 20px 0;
+      li {
+        margin-bottom: 25px;
+        .product-name {
+          font-size: 16px;
+          font-weight: 700;
+        }
+        .amount-div {
+          .total-amount {
+            color: #f15a24;
+            font-size: 16px;
+            .currency-icon {
+            }
+          }
+          .quantity {
+            font-size: 16px;
+            .quantity-title {
+              font-weight: 600;
+            }
+          }
+        }
+        .seller-div {
+          .user-name {
+          }
+        }
+      }
+    }
+    .shipping-notice {
+      margin: 20px 0;
+      font-size: 16px;
+      span {
+        color: #d97c29;
+        font-weight: 600;
+        margin-left: 6px;
+      }
+    }
+    button {
+      background: #f15a24;
+      border: 1px solid #f15a24;
+      color: white;
+      font-weight: 700;
+      width: 200px;
+      height: 43px;
+      border-radius: 5px;
+      &:hover {
+        background: white;
+        color: #f15a24;
+        border: 1px solid #f15a24;
+      }
+    }
+  }
+}

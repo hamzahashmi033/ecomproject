@@ -1,0 +1,75 @@
+.product-carousel {
+  padding: 40px 20px;
+  position: relative;
+  background: #eff1fa;
+  box-shadow: 0 0 5px #eff1fa;
+  border: 1px solid #cfd1d6;
+  border-radius: 10px;
+  margin: 20px 0;
+  z-index: -1;
+}
+.product-carousel h3 {
+  color: #002d70;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.product-carousel .item {
+  padding: 10px;
+}
+
+.product-carousel .item .product-thumbnail {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product-carousel .item .product-thumbnail img {
+  max-width: 80%;
+}
+
+.product-carousel .item .product-title {
+  color: #002d70;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.product-carousel .item .product-price {
+  color: #f05a24;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product-carousel .carousel-tabs {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-carousel .carousel-tabs button {
+  background: #e7e9f3;
+  border: 1px solid #c7c9d1;
+  border-left: 0;
+  font-size: 40px;
+  color: #f05a24;
+  transition: 0.5s all;
+  padding: 25px 8px;
+  z-index: 99;
+}
+.product-carousel .carousel-tabs button:last-child {
+  border: 1px solid #c7c9d1;
+  border-right: 0;
+}
+.product-carousel .carousel-tabs button:hover {
+  background: #fff;
+}

@@ -1,0 +1,19 @@
+.ant-tooltip-inner {
+  color: black;
+  background-color: #d8d8d8;
+  /* z-index: -1 !important; */
+}
+.ant-tooltip {
+  z-index: 99;
+}
+.ant-tooltip-arrow-content {
+  background-color: #d8d8d8 !important;
+}
+.ant-slider-handle.ant-tooltip-open :active {
+  border-color: #d97c29;
+}
+.ant-slider-handle.ant-tooltip-open {
+  border-color: #d97c29;
+}
+/* .ant-tooltip-placement-bottom .ant-tooltip-arrow, .ant-tooltip-placement-bottomLeft .ant-tooltip-arrow, .ant-tooltip-placement-bottomRight .ant-tooltip-arrow {
+    border-bottom-color: green; */

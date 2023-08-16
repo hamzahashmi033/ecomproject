@@ -1,0 +1,29 @@
+.fb-page {
+  height: 70vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fb_box {
+  width: 70%;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 20px;
+  margin-top: 140px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+.fb_box div span.span_one {
+  font-size: 20px;
+}
+.fb_box div span.span_two {
+  font-size: 20px;
+  display: block;
+  margin-top: 16px;
+}
+.fb_box div p.main-headingg {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+}

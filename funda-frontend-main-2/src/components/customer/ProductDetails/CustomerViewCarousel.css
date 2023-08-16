@@ -1,0 +1,69 @@
+.card-twotwo {
+  border: 1px solid #6666;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.card-twotwo:hover {
+  box-shadow: 0 0 4px #bfbfbf;
+}
+.cardTwo___img-parenttwo {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cardTwo___img-parenttwo img {
+  align-self: flex-start;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card---contenttwotwo {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card---contenttwotwo .side-icon_twotwo {
+  position: absolute;
+  right: 10px;
+  color: #666;
+  transition: 0.3s all;
+  font-size: 20px;
+}
+
+.card-twotwo:hover .side-icon_twotwo {
+  right: 0;
+}
+
+/* 
+
+.card__content .side-icon {
+  position: absolute;
+  right: 0px;
+  color: #666;
+
+  transition: 0.3s all;
+  font-size: 40px;
+}
+.cardOne:hover .side-icon {
+  right: -15px;
+  font-size: 50px;
+}
+.card__content .side-icon {
+  font-size: 50px;
+  padding-right: 40px;
+} */
+
+@media screen and (max-width: 992px) {
+  .cardTwo___img-parenttwo {
+    height: auto;
+  }
+}

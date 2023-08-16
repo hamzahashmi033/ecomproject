@@ -1,0 +1,10 @@
+@media screen and (max-width: 900px) {
+  .shop___brand {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .viewww_All {
+    text-align: left;
+  }
+}

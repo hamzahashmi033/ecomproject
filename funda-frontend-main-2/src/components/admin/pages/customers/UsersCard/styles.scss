@@ -1,0 +1,59 @@
+.customer-div {
+  text-align: center;
+  box-shadow: 1px solid black;
+  box-shadow: 1px 2px 12px 4px #e1d5d5;
+  padding: 20px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  button {
+    align-self: end;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .customer-content-div {
+    img {
+      border-radius: 50%;
+      width: 90px;
+      margin-bottom: 9px;
+    }
+    .customer-name {
+      font-size: 20px;
+      font-weight: 600;
+      color: #343131;
+    }
+    .customer-email {
+      font-size: 16px;
+      font-weight: 600;
+      color: #837d7d;
+      margin: 6px 10px;
+      letter-spacing: 0.5px;
+    }
+    .customer-phoneNumber {
+      font-size: 16px;
+      font-weight: 600;
+      span {
+        margin-right: 5px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    @media screen and (max-width: 452px) {
+      .customer-name {
+        font-size: 18px;
+      }
+      .customer-email {
+        font-size: 14px;
+      }
+      .customer-phoneNumber {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.userStatusSwitch {
+  position: relative;
+  top: -9px;
+}

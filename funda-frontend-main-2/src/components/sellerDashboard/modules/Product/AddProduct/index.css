@@ -1,0 +1,252 @@
+.seller-addproduct-wrapper form {
+  width: 500px;
+}
+.seller-addproduct-wrapper .logo-box {
+  width: 25%;
+  margin: auto;
+}
+.seller-addproduct-wrapper .tagline {
+  color: #1a2030;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin: 10px 0;
+}
+.ant-upload-list {
+  margin-top: 20px !important;
+}
+.addproduct_main_heading {
+  color: #1a2030;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.spacer {
+  height: 80px;
+}
+
+.addproduct_button {
+  /* background-color: #D97C29 !important;
+    color: #fcfcfc;
+    border: none;
+    padding: 6px 10px;
+    width: 9%;
+    display: block;
+    box-sizing: border-box; */
+  /* margin-left: auto;
+    margin-right: auto; */
+  /* margin-top: 30px;
+    text-align:center;
+    border-radius: 5px; */
+  background-color: #d97c29 !important;
+  color: #fcfcfc;
+  border: none;
+  padding: 6px 10px;
+  width: 9%;
+  width: 113px;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.addproduct-wrapper {
+  background-image: url(../../../../../assets/backgrounds/auth.png);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.add-specialfields {
+  background-color: #d97c29 !important;
+  color: #fcfcfc;
+  border: none;
+  padding: 10px 14px;
+  display: block;
+  box-sizing: border-box;
+  float: right;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.category_content {
+  width: 98.2%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+}
+
+.category_content_appliance {
+  display: flex;
+  /* padding-left: 10px; */
+}
+
+.category_content_appliance h1 {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.category_content_appliance .select_category {
+  color: #008895;
+  font-weight: 700;
+}
+.category_content_appliance img {
+  opacity: 0.5;
+}
+.category_content_ricon {
+  align-self: center;
+  padding-right: 10px;
+}
+.category_content_ricon img {
+  opacity: 0.5;
+}
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  background-color: #d97c29 !important;
+}
+/* .ant-steps-small .ant-steps-item-icon {
+    background-color: #D97C29;
+  } */
+
+@media screen and (max-width: 1020px) {
+  .Stepperr {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 763px) {
+  .addproduct-wrapper {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 763px) {
+  .addproduct-wrapper {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .addproduct-wrapper {
+    align-items: flex-start;
+    padding: 20px 10px;
+    justify-content: flex-start;
+  }
+}
+.addproduct-wrapper .logo-box {
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.addproduct-wrapper .logo-box img {
+  width: 100%;
+}
+.addproduct-wrapper .page-detail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a2030;
+  margin-bottom: 10px;
+}
+.addproduct-wrapper form {
+  width: 70%;
+  border: 1px solid #a0a0a0;
+  box-shadow: 0 0 5px #dbdbdb;
+  background: #fff;
+  padding: 50px 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+.addproduct-wrapper form .input-form {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.addproduct-wrapper form .input-form label,
+.addproduct-wrapper form .input-form div,
+.addproduct-wrapper form .input-form input {
+  width: 100%;
+  color: #494949;
+  font-size: 14px;
+}
+.addproduct-wrapper form .input-form .MuiFormLabel-root.Mui-focused {
+  color: #1a2030;
+}
+.addproduct-wrapper .password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addproduct-wrapper .password-input-wrapper span {
+  font-size: 16px;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.addproduct-wrapper form button {
+  background: #1a2030;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  padding: 13px;
+  transition: 0.3s all;
+  border-radius: 5px;
+}
+.addproduct-wrapper form button:hover,
+.addproduct-wrapper form button:focus {
+  background: #f05a24;
+}
+.addproduct-wrapper form .agreement {
+  font-size: 12px;
+  margin: 20px 0;
+  line-height: 20px;
+}
+.addproduct-wrapper form .agreement a {
+  font-weight: 600;
+}
+.addproduct-wrapper form .verify-text {
+  font-size: 13px;
+  margin: 5px 0 20px 0;
+}
+.addproduct-wrapper form .resend-code {
+  font-size: 13px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.addproduct-wrapper form .resend-code span {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  color: #f05a24;
+}
+.addproduct-wrapper form .already-hava-an-account {
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 0;
+  color: #585858;
+  font-size: 15px;
+  font-weight: 600;
+}
+.addproduct-wrapper form .form-footer a {
+  display: block;
+  font-size: 15px;
+  margin-top: 20px;
+  transition: 0.4s all;
+  color: #1a2030;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.addproduct-wrapper form .form-footer a:hover {
+  color: #000;
+}

@@ -1,0 +1,154 @@
+@media screen and (max-width: 1279px) {
+  .itemsSearched {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1194px) {
+  .itemsSearched {
+    margin-top: 12px;
+  }
+}
+@media screen and (max-width: 1092px) {
+  .itemsSearched {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .itemsSearched {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .itemsSearched {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .itemsSearched {
+    padding-top: 12px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .itemsSearched {
+    margin-top: 30px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 596px) {
+  .itemsSearched {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .itemsSearched {
+    /* padding: 30px; */
+  }
+}
+/* .itemsSearched {
+ padding: 50px;
+} */
+
+@media screen and (max-width: 1279px) {
+  .itemsSearchedTitle {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1194px) {
+  .itemsSearchedTitle {
+    margin-top: 12px;
+  }
+}
+@media screen and (max-width: 1092px) {
+  .itemsSearchedTitle {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .itemsSearchedTitle {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .itemsSearchedTitle {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .itemsSearchedTitle {
+    padding-top: 140px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .itemsSearchedTitle {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 596px) {
+  .itemsSearchedTitle {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .itemsSearchedTitle {
+    padding: 30px;
+  }
+}
+
+.product-title {
+  margin: 10px 0;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 50px;
+  color: #1a2030;
+  font-weight: 700;
+  font-size: 16px;
+}
+.card-two {
+  border: 1px solid #6666;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.card-two:hover {
+  box-shadow: 0 0 4px #bfbfbf;
+}
+.cardTwo___img-parent {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cardTwo___img-parent img {
+  align-self: flex-start;
+  overflow: hidden;
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+.card---contenttwo {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card---contenttwo .side-icon_two {
+  position: absolute;
+  right: 10px;
+  color: #666;
+  transition: 0.3s all;
+  font-size: 20px;
+}
+
+.card-two:hover .side-icon_two {
+  right: 0;
+}

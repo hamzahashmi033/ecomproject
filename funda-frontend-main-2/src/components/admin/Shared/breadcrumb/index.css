@@ -1,0 +1,35 @@
+.adminpanel-breadcrumb {
+  padding: 20px 10px;
+}
+.adminpanel-breadcrumb .title {
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.adminpanel-breadcrumb ul {
+  display: block;
+  text-align: right;
+}
+.adminpanel-breadcrumb ul li {
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.adminpanel-breadcrumb ul li a {
+  color: #d97c29 !important;
+}
+/* title  */
+@media screen and (max-width: 763px) {
+  .adminpanel-breadcrumb .title,
+  .adminpanel-breadcrumb ul {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .adminpanel-breadcrumb .title,
+  .adminpanel-breadcrumb ul {
+    padding-top: 25px;
+  }
+}

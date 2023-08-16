@@ -1,0 +1,114 @@
+.invoice-container {
+  border: 1px solid #cdcbcb;
+  box-shadow: 0px 0px 5px 0px #d5d2d2;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  .invoice-header {
+    .kmmart-logo {
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+    .invoice-title {
+      font-size: 41px;
+      font-weight: 700;
+    }
+    .invoice-from-div {
+      font-size: 16px;
+      font-weight: 700;
+      .invoice-label {
+        width: 110px;
+        display: inline-block;
+      }
+      .from-title {
+        color: #583adb;
+        font-size: 20px;
+        margin-left: 6px;
+        font-weight: 700;
+      }
+    }
+    .invoice-to-div {
+      font-size: 16px;
+      font-weight: 700;
+      .invoice-label {
+        width: 110px;
+        display: inline-block;
+      }
+      .to-title {
+      }
+    }
+    .invoice-div {
+      font-size: 16px;
+
+      .invoice-desc {
+        .invoice-label {
+          width: 110px;
+          display: inline-block;
+        }
+        .desc {
+          font-weight: 700;
+        }
+        .invoice-status {
+          padding: 5px 20px;
+          background: #f1bb59;
+          border-radius: 20px;
+          color: white;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .invoice-body {
+    margin-top: 40px;
+    .product-title {
+      display: flex;
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+    }
+    .price-container {
+      text-align: end;
+      padding: 30px 0;
+      .subTotal-div {
+        font-size: 20px;
+        border-bottom: 1px solid #80808047;
+        padding-bottom: 20px;
+        span {
+          font-weight: 700;
+        }
+        .rs-sign {
+          color: #583adb;
+        }
+      }
+      .totalAmount-div {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 25px;
+        .currency {
+          color: #583adb;
+        }
+      }
+    }
+  }
+  .invoice-footer {
+    display: flex;
+    justify-content: space-between;
+    button {
+      margin-top: 40px;
+      height: 42px;
+      background: #583adb;
+      color: white;
+      border: none;
+      font-weight: 700;
+      border-radius: 5px;
+      width: 154px;
+      &:hover {
+        background: #583adb;
+      }
+    }
+  }
+}

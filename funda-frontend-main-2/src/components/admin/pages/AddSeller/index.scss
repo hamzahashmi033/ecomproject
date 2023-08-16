@@ -1,0 +1,39 @@
+.dashboard-wrapper {
+  .dashboard {
+    margin-left: 220px;
+    margin-top: 80px;
+    background: #fcfcfc;
+    .content-page {
+      padding: 0 20px;
+      min-height: 80vh;
+      min-height: calc(100vh - 56px);
+      padding-bottom: 20px;
+    }
+    .form {
+      padding: 0 40px;
+      .file-dropzone {
+        max-width: 300px;
+      }
+      .avatar-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+      .avatar {
+        width: 150px;
+        height: 150px;
+      }
+      .input {
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+
+// @media screen and (max-width:900px) {
+//   .btn{
+
+//   }
+// }

@@ -1,0 +1,36 @@
+.sale-banner-wrapper {
+  width: 80%;
+  overflow: hidden !important;
+  height: 95%;
+  margin: 0 auto;
+}
+.sale-banner-wrapper .sale-banner {
+  max-width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 30px 0;
+  display: block;
+}
+@media screen and (max-width: 1278px) {
+  .sale-banner-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content:space-between;
+  }
+  
+}
+@media screen and (max-width:960px) {
+  .sale-banner-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content:space-between;
+  }
+  
+}
+@media screen and (max-width: 763px) {
+  .sale-banner-wrapper {
+    display: none;
+  }
+}

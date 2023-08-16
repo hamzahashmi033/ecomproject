@@ -1,0 +1,22 @@
+.responsive {
+  width: 100% !important;
+  height: auto;
+}
+.sidebar-card {
+  width: 90% !important;
+  margin: auto;
+  margin-top: 31px;
+}
+.banner {
+  background: #fff;
+  height: 240px;
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+.banner img {
+  max-width: 100%;
+}

@@ -1,0 +1,101 @@
+.product-review-container {
+  .review-header {
+    // font-size: 30px;
+    font-weight: 900;
+    padding: 10px 20px;
+  }
+  .review-button {
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #c5b3b3;
+    background: white;
+    box-shadow: 1px 1px 4px 0px #0000006b;
+    padding: 10px 15px;
+    font-weight: 600;
+  }
+  .product-review-section {
+    padding: 20px;
+    .review-div {
+      margin-bottom: 30px;
+      .user-div {
+        display: flex;
+        margin-bottom: 15px;
+        .user {
+          padding-left: 20px;
+          .user-fullName {
+            font-size: 16px;
+            font-weight: 700;
+          }
+          .user-date {
+            font-size: 12px;
+          }
+        }
+      }
+      .rating-div {
+        .review-title {
+          margin-left: 20px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+      .product-review {
+      }
+    }
+  }
+  .no-review-div {
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 700;
+    color: #f05a24;
+  }
+}
+
+.modal-div {
+  width: 600px;
+  padding: 20px;
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    .header-title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+  .dialog-body {
+    padding: 20px 0;
+    .input-div {
+      margin-bottom: 10px;
+      .input-label {
+        font-size: 16px;
+        color: currentColor;
+        font-weight: 600;
+        margin-bottom: 9px;
+      }
+    }
+    .rating-div {
+      margin-bottom: 10px;
+      .input-label {
+        font-size: 16px;
+        color: currentColor;
+        font-weight: 600;
+        margin-bottom: 9px;
+      }
+    }
+  }
+  .review-button-div {
+    text-align: end;
+    .add-review-button {
+      background-color: #f05a24 !important;
+      color: white;
+      width: 160px;
+      padding: 9px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+}
+
+.MuiDialog-scrollPaper {
+  align-items: center;
+  justify-content: center;
+}

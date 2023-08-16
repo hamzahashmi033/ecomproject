@@ -1,0 +1,85 @@
+.home-page {
+  overflow: hidden;
+}
+.hero-portion .hero-portion-carousel .item .product-detail {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.hero-portion .hero-portion-carousel .item .product-detail .product-title {
+  color: #f05a24;
+  font-size: 36px;
+  font-weight: bold;
+}
+.hero-portion
+  .hero-portion-carousel
+  .item
+  .product-detail
+  .product-description {
+  color: #242424;
+  font-size: 13px;
+  margin: 10px 0;
+}
+.hero-portion .hero-portion-carousel .item .product-detail .product-price {
+  color: #002d70;
+  font-size: 34px;
+  font-weight: bold;
+}
+.hero-portion .hero-portion-carousel .owl-nav {
+  display: flex !important;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.hero-portion .hero-portion-carousel .owl-nav [class*="owl-"] {
+  background: #002d70 !important;
+  color: #fff !important;
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2px !important;
+}
+.product-portion {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.home-banner {
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+  width: 100%;
+}
+@media screen and (max-width: 763px) {
+  .hero-portion {
+    padding-top: 130px;
+  }
+  .hero-portion .hero-portion-carousel .item .product-detail .product-title {
+    font-size: 18px;
+  }
+  .hero-portion
+    .hero-portion-carousel
+    .item
+    .product-detail
+    .product-description {
+    display: none;
+  }
+  .hero-portion .hero-portion-carousel .item .product-detail .product-price {
+    font-size: 16px;
+  }
+  .product-portion {
+    padding: 20px 0;
+  }
+}

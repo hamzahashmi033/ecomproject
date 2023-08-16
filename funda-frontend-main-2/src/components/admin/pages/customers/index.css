@@ -1,0 +1,16 @@
+.dashboard-wrapper .customer-grid .MuiGrid-container{
+    padding: 0 30px 30px 30px;
+
+}
+
+.search-box{
+    text-align: right;
+
+}
+@media screen and (max-width: 599px){
+
+    .search-box{
+        margin: 0 auto;
+    }
+    
+}

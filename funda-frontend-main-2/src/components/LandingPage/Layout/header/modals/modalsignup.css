@@ -1,0 +1,15 @@
+/* .PhoneInputInput {
+  border-color: #6666;
+} */
+.modalsignup_width {
+  /* width: 1000px !important;
+  margin: auto; */
+  overflow-y: auto !important;
+}
+
+.modalsignup_Scocial_Button {
+  background: transparent;
+  border: 0px;
+  /* padding: 0px;
+  margin: 0px; */
+}

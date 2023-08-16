@@ -1,0 +1,23 @@
+.prodname {
+  -webkit-line-clamp: 1 !important;
+  display: -webkit-box !important;
+  overflow: hidden !important;
+  -webkit-box-orient: vertical !important;
+  text-transform: capitalize;
+  /* background-color: brown !important; */
+  /* padding-top: 0%;
+  width: 100%; */
+}
+#getid {
+  display: none;
+  position: absolute;
+  left: 247px;
+  right: 250px;
+  top: 158px;
+  z-index: 99;
+  background-color: #f1f1f1;
+
+  border-top: 1px solid #6666;
+  border-right: 1px solid #6666;
+  border-bottom: 1px solid #6666;
+}

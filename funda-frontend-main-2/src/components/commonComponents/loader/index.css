@@ -1,0 +1,15 @@
+.loading-screen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-screen img {
+  width: 160px;
+}

@@ -1,0 +1,80 @@
+.payment-method-div {
+  width: 95%;
+  margin: auto;
+  .slider-header {
+    font-size: 30px;
+    color: #1a2030;
+    border-bottom: 1px solid #cdcaca;
+    font-weight: 700;
+    padding-bottom: 22px;
+  }
+  .slider-content {
+    padding-top: 20px;
+    width: 50%;
+    .card-container {
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      width: 270px;
+      border: 1px solid #f15a24fc;
+      height: 200px;
+      border-radius: 10px;
+      color: #f15a24fc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s linear;
+      .image-div {
+        background: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-bottom: 13px;
+        img {
+          width: 90px;
+          margin-bottom: 7px;
+        }
+        svg {
+          color: #f15c27;
+          font-size: 53px;
+        }
+      }
+      &.selected {
+        background: #f15a24fc;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &:hover {
+        background: #f15a24fc;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  button {
+    background: #d97c29;
+    border: 1px solid #d97c29;
+    color: white;
+    font-weight: 700;
+    width: 200px;
+    height: 43px;
+    border-radius: 5px;
+    &:hover {
+      background: white;
+      color: #d97c29;
+      border: 1px solid #d97c29;
+    }
+  }
+}

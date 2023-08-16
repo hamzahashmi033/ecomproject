@@ -1,0 +1,43 @@
+.newsletter {
+  padding: 25px 20px 25px 20px !important;
+  background-color: #add4bc;
+}
+.newsletter .newsletter-discount {
+  color: #fff;
+}
+.newsletter .newsletter-discount {
+  color: #fff;
+  font-weight: 500;
+}
+.newsletter .newsletter-discount p {
+  margin: 0;
+}
+.newsletter .newsletter-discount p span {
+  font-size: 24px;
+}
+.newsletter .subscriber {
+  display: flex;
+}
+.newsletter .subscriber .input-subscriber {
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  width: 345px;
+  border: none;
+  outline: none;
+}
+.newsletter .subscriber .subscriber-button {
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  width: 130px;
+  text-transform: uppercase;
+  background-color: #fec9ab;
+  color: #a57aa6;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+@media screen and (max-width: 780px) {
+  .newsletter {
+    padding: 0px 0px 12px 18px;
+  }
+}

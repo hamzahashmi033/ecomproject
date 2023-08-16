@@ -1,0 +1,38 @@
+.fixdivbar {
+  position: fixed;
+  top: 70px;
+  width: 56%;
+  max-height: 40%;
+  overflow-y: scroll;
+  background-color: #eff1fa;
+  /* border: 1px solid black ; */
+  border-radius: 1%;
+}
+
+.hovermenu {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid black;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0%;
+}
+
+.hovermenu:hover {
+  background-color: #f05a24 !important;
+}
+
+@media screen and (max-width: 1194px) {
+  .fixdivbar {
+    position: fixed;
+    top: 125px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search-buttonn {
+    width: 20% !important;
+  }
+}

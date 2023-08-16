@@ -1,0 +1,129 @@
+.aboutus {
+  width: 90%;
+  margin: 111px auto 0px;
+  overflow: hidden;
+}
+.aboutus img {
+  width: 100%;
+}
+.marginclasss {
+  margin-top: 20px;
+}
+@media screen and (max-width: 763px) {
+  .marginclasss {
+    margin-top: 8px;
+  }
+}
+
+.aboutus .who-we-are {
+  text-align: center;
+}
+.aboutus .who-we-are h2 {
+  color: #002d70;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.aboutus .who-we-are p {
+  font-size: 15px;
+  font-weight: 500;
+  width: 80%;
+  color: #444444;
+  margin: 20px auto;
+}
+.aboutus .section-title {
+  position: relative;
+  margin: 30px 40px;
+}
+.aboutus .section-title img {
+  width: 100%;
+}
+.aboutus .section-title .content {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutus .section-title .content h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.aboutus .section-title .content p {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+.aboutus .thumbnail-wrapper {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.aboutus .section-thumbnails {
+  text-align: center;
+  margin: 0;
+}
+.aboutus .section-thumbnails .image_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin: auto;
+  height: 150px;
+}
+.aboutus .section-thumbnails .image_wrapper img {
+  max-width: 100%;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.aboutus .section-thumbnails .image_wrapper img:hover {
+  transform: scale(1.2);
+}
+
+.aboutus .our-mission {
+  padding: 20px 0;
+}
+.aboutus .our-services .thumbnail-wrapper {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 991px) {
+  .aboutus .section-title {
+    margin: 30px 0;
+  }
+  .aboutus .section-title .content h2 {
+    font-size: 40px;
+  }
+  .aboutus .section-title .content p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 763px) {
+  .aboutus .who-we-are {
+    margin: 20px 0;
+  }
+  .aboutus .who-we-are h2 {
+    font-size: 30px;
+  }
+  .aboutus .who-we-are p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .aboutus .section-title img {
+    height: 160px;
+  }
+  .aboutus .section-title .content h2 {
+    font-size: 22px;
+  }
+  .aboutus .section-title .content p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,52 @@
+.confirm-message-wrapper {
+  background: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirm-message-wrapper .confirm-message {
+  background: #fff;
+  box-shadow: 0 0 10px #cfcfcf;
+  padding: 80px 60px;
+  border-radius: 15px;
+  max-width: 95%;
+}
+
+.confirm-message-wrapper .confirm-message h4 {
+  color: #252c41;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.confirm-message-wrapper .confirm-message button {
+  min-width: 130px;
+  border: none;
+  background: #d10000;
+  color: #fff;
+  margin: 0 10px;
+  padding: 14px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s all;
+}
+.confirm-message-wrapper .confirm-message button.back {
+  background: #252c41;
+}
+.confirm-message-wrapper .confirm-message button:hover {
+  background: #970000;
+}
+.confirm-message-wrapper .confirm-message button.back:hover {
+  background: #0f121b;
+}
+.confirm-message-footer {
+  text-align: center;
+}

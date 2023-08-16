@@ -1,0 +1,72 @@
+.deal-heading {
+  margin: 20px 40px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.deal-subtext {
+  margin: 10px 40px;
+  font-size: 20px;
+}
+
+.product-list-container {
+  background: #e7e9f3;
+  padding: 20px;
+  margin: 30px;
+}
+
+.MuiButtonBase-root {
+  /* background-color: white !important; */
+  border-radius: 10px;
+}
+
+.product-details {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #adafb5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-details-price {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 7s00;
+  color: #f26f40;
+}
+
+.view-item-button {
+  background-color: #f15a24;
+  color: #fcfcfc;
+  border: none;
+  padding: 5px 10px;
+  width: 66%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.MuiPaper-rounded {
+  border-radius: 6px !important;
+}
+
+/* .MuiCard-root:hover {
+
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+} */
+
+.deal-back {
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f15a24;
+  width: 80%;
+  margin: 5px;
+}

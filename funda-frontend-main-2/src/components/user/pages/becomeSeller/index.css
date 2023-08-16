@@ -1,0 +1,116 @@
+.become-seller {
+  margin-top: 113px;
+}
+.become-seller .main_container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.become-seller .img_discuss {
+  width: 100%;
+}
+.become-seller .content {
+  position: absolute;
+  padding: 0 40px;
+  color: white !important;
+}
+.become-seller .content h3 {
+  font-size: 45px;
+  width: 60%;
+  font-weight: 600;
+  color: #d4d4d4 !important;
+}
+.become-seller .content p {
+  margin: 15px 0;
+  width: 35%;
+  font-size: 18px;
+  color: #d4d4d4;
+}
+.become-seller .content label {
+  display: block;
+}
+.become-seller .content label a {
+  color: #fbc920 !important;
+  margin-left: 5px;
+}
+.become-seller .become-seller-detail {
+  position: relative;
+  text-align: center;
+}
+.become-seller button {
+  background-color: #d97c29;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.become-seller .become-seller-detail button {
+  border-radius: 5px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 38px;
+  right: 39%;
+}
+
+.become-seller .become-seller-detail img {
+  object-fit: contain;
+  width: 100%;
+}
+.become-seller .become-seller-content {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #ececec !important;
+  color: #535353 !important;
+}
+.become-seller h4 {
+  padding: 20px 0;
+  color: #505050;
+  font-size: 34px;
+}
+.become-seller .description {
+  padding-bottom: 22px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+  .become-seller {
+    margin-top: 130px;
+  }
+  .become-seller .img_discuss {
+    height: 250px;
+  }
+  .become-seller .content {
+    padding: 0 20px;
+  }
+  .become-seller .content h3 {
+    font-size: 26px;
+    width: 100%;
+  }
+  .become-seller .content p {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 100%;
+  }
+  .become-seller button {
+    margin: 5px 0;
+  }
+  .become-seller .become-seller-detail button {
+    display: none;
+  }
+}
+@media screen and (max-width: 763px) {
+  .become-seller .become-seller-content {
+    text-align: left;
+  }
+  .become-seller h4 {
+    font-size: 24px;
+  }
+  .become-seller .description {
+    font-size: 15px;
+  }
+}

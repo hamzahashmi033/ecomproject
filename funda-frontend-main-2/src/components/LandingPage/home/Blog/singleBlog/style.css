@@ -1,0 +1,34 @@
+.BlogArticle_parent{
+  width: 80%;
+  margin: auto;
+}
+.BlogImage_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.BlogImage_container img{
+  width: 100%;
+  height:100%;
+object-fit: contain;
+}
+.category_title{
+  background-color:rgba(0,0,0,0.2);
+  color: #fff;
+  width:fit-content;
+  padding:2px 5px;
+}
+.relatedarticles_parent{
+border-bottom: 2px solid #000;
+margin-top:40px;
+}
+.relatedarticles{
+background-color: black;
+color: #fff;
+padding:2px 5px;
+width:fit-content;
+}

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height:337px;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Hover Effect on Image */
+.containerEffect {
+  position: relative;
+  width: 100%;
+  background: -webkit-linear-gradient(
+45deg, #4db2ec 0%, #4a8f5e 100%);
+transform: scale(1);
+transition: 0.5s all;
+}
+.containerEffect:hover {
+
+transform: scale(0.9877);
+
+}
+
+.imageeffect {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height:100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.middleeffect {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.containerEffect:hover .imageeffect {
+  opacity: 0.3;
+}
+
+.containerEffect:hover .middleeffect {
+  opacity: 1;
+}
+.texteffect_heading{
+  width: fit-content;
+  font-size: 16px;
+  margin: 16px 32px  0px !important;
+  padding: 0px 10px;
+  color: #6ec1db;
+  font-weight: bolder;
+  background-color:rgba(0, 0, 0, 0.2);
+}
+.texteffect {
+  color: #fff;
+  font-size: 24px;
+  padding: 0px 32px 16px;
+  white-space:pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 763px) {
+  .column {
+  width: 50%;
+}
+}
+@media screen and (max-width: 450px) {
+  .column {
+  width: 100%;
+}
+}

@@ -1,0 +1,8 @@
+ul.header-tab {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+ul.header-tab li {
+  padding-right: 40px;
+}

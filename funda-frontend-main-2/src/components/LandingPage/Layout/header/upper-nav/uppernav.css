@@ -1,0 +1,68 @@
+.upper_nav {
+  /* height: 50px; */
+  background-color: #f2f2f2;
+}
+
+.upper_nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  height: 25px;
+}
+
+.upper_nav ul li {
+  color: #4d4d4d;
+  margin: 2px 14px;
+  font-size: 13px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+.upper_nav ul li:hover {
+  color: #d97c29;
+  margin: 2px 14px;
+  font-size: 13px;
+  border-bottom: 1px solid #d97c29;
+  transition: ease-in-out all 0.4s;
+}
+
+@media screen and (max-width: 1130px) {
+  .upper_nav {
+    display: none;
+  }
+  .upper___nav {
+    height: 0;
+  }
+}
+
+.upper_nav ul li.sign_in {
+  color: #fff;
+  border: 1px solid #d97c29;
+  border-radius: 6px;
+  padding: 0px 15px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #d97c29;
+  transition: all 0.2s;
+}
+.upper_nav ul li.sign_in:hover {
+  border: 1px solid #090049;
+  background-color: #090049;
+  transition: ease-in-out all 0.4s;
+}
+.upper_nav ul li.sign_up {
+  color: #fff;
+  border: 1px solid #d97c29;
+  border-radius: 6px;
+  padding: 0px 15px;
+  margin: 0 10px;
+  font-size: 12px;
+  margin-left: 17px;
+  background-color: #d97c29;
+}
+
+.upper_nav ul li.sign_up:hover {
+  border: 1px solid #090049;
+  background-color: #090049;
+  transition: ease-in-out all 0.4s;
+}

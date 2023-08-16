@@ -1,0 +1,82 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/lab": "^5.0.0-alpha.61",
+    "@mui/material": "^5.2.5",
+    "@mui/styles": "^5.2.2",
+    "@paypal/react-paypal-js": "^7.4.2",
+    "@react-pdf/renderer": "^2.0.20",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "antd": "^4.17.4",
+    "antd-img-crop": "^3.16.0",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^14.2.2",
+    "react-facebook-login": "^4.1.1",
+    "react-facebook-pixel": "^1.0.4",
+    "react-id-swiper": "^4.0.0",
+    "react-image-magnify": "^2.7.4",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-moment": "^1.1.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-phone-number-input": "^3.1.44",
+    "react-query": "^3.34.6",
+    "react-redux": "^7.2.4",
+    "react-responsive-carousel": "^3.2.22",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-simple-file-upload": "^0.4.0",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.63.6",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.5.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

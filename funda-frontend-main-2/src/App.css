@@ -1,0 +1,207 @@
+/* @import url("https://fonts.googleapis.com/css?family=Raleway"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+* {
+  outline: none;
+  margin: 0;
+  /* font-family: "La" !important ; */
+  font-family: "Lato", sans-serif;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+::placeholder {
+  color: #868686;
+  font-weight: 600;
+  font-size: 14px;
+}
+html,
+body {
+  min-height: 95%;
+  margin: 0;
+}
+
+body {
+  background-position: center;
+}
+a {
+  text-decoration: none;
+}
+.MuiGrid-container {
+  justify-content: center;
+}
+.transition {
+  transition: 0.5s all !important;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #ebebeb;
+  border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #dadada;
+}
+.page-title {
+  color: #1a2030;
+  font-size: 40px;
+  font-weight: bold;
+}
+@media screen and (max-width: 991px) {
+  .your-profile .page-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+}
+.auth-wrapper {
+  background-image: url(assets/backgrounds/auth.png);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 763px) {
+  .auth-wrapper {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .auth-wrapper {
+    align-items: flex-start;
+    padding: 20px 10px;
+    justify-content: flex-start;
+  }
+}
+.auth-wrapper .logo-box {
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.auth-wrapper .logo-box img {
+  width: 100%;
+}
+.auth-wrapper .page-detail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a2030;
+  margin-bottom: 10px;
+}
+.auth-wrapper form {
+  width: 400px;
+  border: 1px solid #a0a0a0;
+  box-shadow: 0 0 5px #dbdbdb;
+  background: #fff;
+  padding: 50px 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+.auth-wrapper form .input-form {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.auth-wrapper form .input-form label,
+.auth-wrapper form .input-form div,
+.auth-wrapper form .input-form input {
+  width: 100%;
+  color: #494949;
+  font-size: 14px;
+}
+.auth-wrapper form .input-form .MuiFormLabel-root.Mui-focused {
+  color: #1a2030;
+}
+.auth-wrapper .password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-wrapper .password-input-wrapper span {
+  font-size: 16px;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.auth-wrapper form button {
+  background: #d97c29;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  padding: 13px;
+  transition: 0.3s all;
+  border-radius: 5px;
+}
+.auth-wrapper form button:hover,
+.auth-wrapper form button:focus {
+  background: #d97c29;
+  color: #000;
+}
+.auth-wrapper form .agreement {
+  font-size: 12px;
+  margin: 20px 0;
+  line-height: 20px;
+}
+.auth-wrapper form .agreement a {
+  font-weight: 600;
+  color: #d97c29 !important;
+}
+.auth-wrapper form .verify-text {
+  font-size: 13px;
+  margin: 5px 0 20px 0;
+}
+.auth-wrapper form .resend-code {
+  font-size: 13px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.auth-wrapper form .resend-code span {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  color: #f05a24;
+}
+.auth-wrapper form .already-hava-an-account {
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 0;
+  color: #585858;
+  font-size: 15px;
+  font-weight: 600;
+}
+.auth-wrapper form .form-footer a {
+  display: block;
+  font-size: 15px;
+  margin-top: 20px;
+  transition: 0.4s all;
+  color: #1a2030;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.auth-wrapper form .form-footer a:hover {
+  color: #000;
+}

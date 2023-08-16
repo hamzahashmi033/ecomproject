@@ -1,0 +1,36 @@
+.div_categories {
+  text-align: center;
+}
+
+.categories_parent {
+  border: 1px solid #6666661f !important;
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+}
+.category_itemss {
+  width: 12.5%;
+  float: left;
+  text-align: left;
+}
+.category_itemss {
+  width: 12.5%;
+  float: left;
+  text-align: left;
+}
+@media screen and (max-width: 763px) {
+  .category_itemss {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .category_itemss {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .viewww_All {
+    text-align: left;
+  }
+}
